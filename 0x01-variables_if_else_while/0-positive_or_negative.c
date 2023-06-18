@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main -The unmber is the determinant if the output is positive
  * negative or zero
