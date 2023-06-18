@@ -4,7 +4,7 @@
  * main The focal point
  *
  * Description: Prints foucus the size of various types on the system
- *               it is compiled and run on.
+ *              it is compiled and run on.
  *
  * Return: 0 (Success)
  */
