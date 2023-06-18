@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
 /**
- * main - The unmber is the determinant if the output is positive
- * negative or zero
+ * main - The determinat is that your output will be positive, zero or negative and
+ *it executes and prints it
  *
- * Return is 0(success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 
