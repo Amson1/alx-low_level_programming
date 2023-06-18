@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main -The unmber is the determinant if the output is positive
+ * main -The number is the determinant if the output is positive
  * negative or zero
  *
  * Return is 0
  */
-int main (void)
-{  int n;
+int main(void)
+
+{ 	 int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
