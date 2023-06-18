@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main -The unmber is the determinant if the output is positive
+ * main - The unmber is the determinant if the output is positive
  * negative or zero
  *
  * Return is 0 
