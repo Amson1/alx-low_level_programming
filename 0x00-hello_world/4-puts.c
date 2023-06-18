@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - my focal point
+ * main - focal point
  *
  * Description: Prints this  code using printf
  *
