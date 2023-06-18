@@ -3,8 +3,8 @@
 /**
  * main - focal point
  *
- * Description: Prints this  code using printf
- *
+ * Description: Prints this code using puts
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
