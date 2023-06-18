@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main The focal point
  *
- * Description: Prints the size of various types on the computer
- *              it is compiled and run on.
+ * Description: Prints foucus the size of various types on the system
+ *               it is compiled and run on.
  *
  * Return: 0 (Success)
  */
