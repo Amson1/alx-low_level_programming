@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
+ * main - The focal point
  *
- * Description: Prints the exact string "and that piece of art is useful"
+ * Description: Prints the focus string "and that piece of art is useful"
  *              - Dora Korpar, 2015-10-19",
  *              followed by a new line, to the standard error.
  *
