@@ -1,21 +1,22 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main -The number is the determinant if the output is positive
+ * main -The unmber is the determinant if the output is positive
  * negative or zero
  *
- * Return is 0
+ * Return is 0 
  */
 int main(void)
 
-{ 	 int n;
+{
+	int n;
 
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
 
-	if  (n > 0)
+	if (n > 0)
 
 	printf("%d is positive\n", n);
 
@@ -25,12 +26,7 @@ int main(void)
 
 	else if (n < 0)
 
-	printf("%d is negative\", n);
+	printf("%d is negative\n", n);
 
 	return (0);
-
 }
-
-
-
-
