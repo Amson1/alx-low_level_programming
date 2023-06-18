@@ -6,7 +6,7 @@
  * main - The unmber is the determinant if the output is positive
  * negative or zero
  *
- * Return is 0 
+ * Return is 0(success)
  */
 int main(void)
 
