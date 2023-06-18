@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - my focal point
  *
- * Description: Prints a line of code using printf
+ * Description: Prints this  code using printf
  *
  * Return: Always 0 (Success)
  */
