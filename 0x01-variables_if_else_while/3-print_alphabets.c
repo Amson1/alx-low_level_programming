@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * main -  prints the alphabet in lowercase
- * uppercase, followed by a new line
+ * uppercase followed by a new line
  *
  * Return: Always 0 (success)
  * */
