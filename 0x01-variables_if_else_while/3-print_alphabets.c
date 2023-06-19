@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctppe.h>
+#include <ctype.h>
 /**
  * main -  prints the alphabet in lowercase
  * uppercase, followed by a new line
