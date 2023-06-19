@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - The determinat is that your output will be positive, zero or negative and
+ * main - int n is assigned a random number each time
  *it executes and prints it
  *
  * Return: Always 0 (Success)
