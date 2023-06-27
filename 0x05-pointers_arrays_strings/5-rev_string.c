@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  * rev_string - reversing a string in the opposite order
  * @s: input that revert the string
