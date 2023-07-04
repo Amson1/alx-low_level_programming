@@ -1,30 +1,28 @@
-#include "main.h"
+#include<stdio.h>
+#include"main.h"
 /**
- * print_chessboard - Prints a chessboard represented by a 2D
- * array.
+ * print_diagsums - Prints the sum of the diagonals of a square
+ * integer array
+ * @a: Pointer to the 2D square integer array
+ * @size: Size of the square array
  *
- * This function takes a 2D array 'a' representing a chessboard
- * and prints it
- * contents. The chessboard has a size of 8x8.
  *
- * @a: The 2D array representing the chessboard.
- *
- */
-void print_chessboard(char (*a)[8])
+*/
+void print_diagsums(int *a, int size)
 {
-	int row, col;
+	int i, sum1, sum2;
 
-	/* Iterate through the rows of the chessboard */
-	for (row = 0; row < 8; row++)
-	{
-		/* Iterate through the columns of the chessboard */
-		for (col = 0; col < 8; col++)
-		{
-			/* Print the character at the current position */
-			_putchar(a[row][col]);
-		}
+	sum1 = 0;
 
-		/* Move to the next line after printing a row */
-		_putchar('\n');
-	}
+	sum2 = 0;
+
+for (i = 0; i < (size * size); i++)
+{
+	if (i % (size + 1) == 0)
+		sum1 += a[i];
+	if (i % (size - 1) == 0 && i != 0 && i < (size * size - 1))
+		sum2 += a[i];
+}
+
+printf("%d, %d\n", sum1, sum2);
 }
