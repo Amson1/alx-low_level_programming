@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _pow_recursion - This prints function that returns the value of x raised to the power y
+ * _pow_recursion - This prints x to power y
  * @x: The parameter base
  * @y: The power
  *
@@ -17,3 +17,4 @@ int _pow_recursion(int x, int y)
 		return (x * _pow_recursion(x, y - 1));
 	}
 }
+
