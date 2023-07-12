@@ -1,74 +1,33 @@
 #include "main.h"
 
 /**
- * _strncat - concatenate two strings
- *  @dest: The  destination string.
- * @src: The  source string.
+ * _strncat - Concatenates two strings, limiting the number of
+ * characters copied.
+ * @dest: The pointer destination string.
+ * @src: The pointer source string.
  * @n: The maximum number of characters to be concatenated.
  *
- * Return:  the resulting string @dest.
+ * Return: Pointer to the resulting string @dest.
  */
-
-
-
 char *_strncat(char *dest, char *src, int n)
-
-
 {
+	int indexNum, indexSrc;
 
+	indexNum = 0;
 
-        	int a;
+	/* Find size of dest array */
+	while (dest[indexNum])
+		indexNum++;
 
+	/**
+	 * src does not need to be null terminated
+	 * if it contains n or more bytes
+	 */
+	for (indexSrc = 0; indexSrc < n && src[indexSrc] != '\0'; indexSrc++)
+		dest[indexNum + indexSrc] = src[indexSrc];
 
-        	int b;
+	/* Null-terminate dest */
+	dest[indexNum + indexSrc] = '\0';
 
-
-
-
-
-        	a = 0;
-
-
-        	while (dest[a] != '\0')
-
-
-        	{
-
-
-                    	a++;
-
-
-        	}
-
-
-        	b = 0;
-
-
-        	while (b < n && src[b] != '\0')
-
-
-        	{
-
-
-        	dest[a] = src[b];
-
-
-        	a++;
-
-
-        	b++;
-
-
-        	}
-
-
-        	dest[a] = '\0';
-
-
-        	return (dest);
-
-
+	return (dest);
 }
-
-
-

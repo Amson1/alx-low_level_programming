@@ -1,17 +1,15 @@
 #include "main.h"
+
 /**
- * _isupper- creating upper case character
- * @c: check
- *
- * return: zero or number 1
+ * _islower - This function checks for lowercase character
+ *@c: the characters to be check
+ * Return: 1 for lowercase, 0 otherwise
  */
-
-int _isupper(int c)
-
+int _islower(int s)
 {
-        	if (c >= 'A' && c <= 'Z')
-                    	return (1);
-        	else
-        	return (0);
-}
+	if (s >= 'a' && s <= 'z')
+	return (1);
+	else
+	return (0);
 
+}
