@@ -1,22 +1,22 @@
 #include "main.h"
 /**
- * _atoi - turn  string into an integer
+ * _atoi - changes a string into an integer
  *
  * @s: the string input parameter
  *
- * Return: turn  integer from string
+ * Return: change integer from string
 */
-int _atoi(char *c)
+int _atoi(char *s)
 {
 	unsigned int num = 0;
 	int sign = 1;
 
-	for (; *c != '\0'; c++)
+	for (; *s != '\0'; s++)
 	{
-		if (*c == '-')
+		if (*s == '-')
 			sign *= -1;
-		else if (*s >= '0' && *c <= '9')
-			num = (num * 10) + (*c - '0');
+		else if (*s >= '0' && *s <= '9')
+			num = (num * 10) + (*s - '0');
 		else if (num > 0)
 			break;
 	}
