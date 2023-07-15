@@ -2,14 +2,17 @@
 #include <stdlib.h>
 
 /**
- * create_array - Creates an array of integers
- * @size: Size of the array to create
- * @value: Value to initialize each element of the array with
+ * array_range - Creates an array of integers representing a
+ * range of values.
  *
- * Return: Pointer to the newly created array, or NULL if size is 0 or if
- *         memory allocation fails
+ * @min: minimum value of the range stored
+ * @max:  maximum value of the range stored and number of elements
+ *
+ * Return: Pointer to the array of integers representing the
+ * range.
+ *	Returns NULL if the range is invalid or if memory
+ *	allocation fails.
  */
-
 int *array_range(int min, int max)
 {
 	int idx, *arrRng;
